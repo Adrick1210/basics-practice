@@ -33,10 +33,33 @@ a {
   text-decoration: none;
 }
 
+.showcase {
+  height: 480px;
+}
+
+.showcase img {
+  height: 480px;
+  width: 100%;
+}
+
 .content {
-  border: 1px solid black;
-  padding: 10px;
+  background-color: rgb(156, 153, 153);
+  height: 350px;
   text-indent: 30px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+}
+
+.content p {
+  height: 200px;
+  justify-content: center;
+  width: 30%;
+  color: white;
+  padding: 5px;
 }
 
 .footer {
